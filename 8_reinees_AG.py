@@ -8,7 +8,7 @@ def evaluer(solution):
     for i in range(7):
         for j in range(i + 1, 8):
             if solution[i] == solution[j] or abs(i - j) == abs(solution[i] - solution[j]):
-                attaques += 1
+                attaques += 2
     return attaques
 
 def croisement(parent1, parent2):
